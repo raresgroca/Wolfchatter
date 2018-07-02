@@ -1,0 +1,23 @@
+<div id="chatBox" class="chatbox my-5 mx-5">
+    <div id="title" class="text-center my-3"></div>
+
+    <div id="messages" class="messagebox my-5 text-center list-inline"></div>
+
+    <div class="input-section mx-3 mb-2">
+        <input id="id_chatroom" type="hidden" value="1">
+
+        <div class="form-group">
+            <input type="text" class="form-control" id="message_chatroom" placeholder="Enter message here...">
+        </div>
+
+        <div class="form-inline">
+            <div class="form-group">
+                <input type="text" class="form-control" id="name_chatroom" placeholder="Enter name here...">
+            </div>
+            <button class="btn btn-primary ml-1" onclick="btnSubmitMessage()">Submit</button>
+        </div>
+
+    </div>
+</div>
+<!-- Custom Chat JS -->
+<script src="/chat/chat.js"></script>
