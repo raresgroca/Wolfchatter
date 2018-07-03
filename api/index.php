@@ -1,6 +1,5 @@
-/* This contains the index/main/the entry point of the API */
-
 <?php
+// This contains the index/main/the entry point of the API
 
 require_once 'config/config.php';
 require_once 'controller/controller.php';

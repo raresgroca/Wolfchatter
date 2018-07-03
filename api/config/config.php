@@ -1,6 +1,5 @@
-/* This file contains configurations of the API, like Database and Error Logs */
-
 <?php
+// This file contains configurations of the API, like Database and Error Logs
 
 define("HOSTNAME", "localhost");
 define("USERNAME", "root");

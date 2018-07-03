@@ -1,6 +1,5 @@
-/* This contains the database workarounds of the API */
-
 <?php
+// This contains the database workarounds of the API
 
 class Database
 {

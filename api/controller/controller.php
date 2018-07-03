@@ -1,6 +1,5 @@
-/* This file contains the controllers of the API */
-
 <?php
+// This file contains the controllers of the API
 
 require_once 'model/database.php';
 

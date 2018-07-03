@@ -41,6 +41,7 @@ var chatNr = 0;
 function onMapClick(e) {
     L.marker(e.latlng).addTo(map).bindPopup("Chatroom: " + chatNr).openPopup();
     chatNr++;
+    document.getElementById("infoBox").style.display = "none";
 }
 
 map.on('popupopen', function (e) {

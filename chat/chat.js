@@ -39,7 +39,7 @@ function displayChat(room_id) {
     }, function (data) {
         var messages = JSON.parse(data);
         for (var messageid in messages) {
-            content += "<div style='float: left; margin-left: 2px;'" + "<h4 style='display: inline-block'>" + messages[messageid][2] + "</h4>" + ":  " + "<p style='display: inline-block'>" + messages[messageid][3] + "</p>" + "</div>" + "<br>" + "<p style='font-size: 12px; float: right; margin-right: 2px;'>" + messages[messageid][4] + "</p><br><br><hr>";
+            content += "<div style='float: left;'" + "<h4 style='display: inline-block'>" + messages[messageid][2] + "</h4>" + ":  " + "<p style='display: inline-block'>" + messages[messageid][3] + "</p>" + "</div>" + "<br>" + "<p style='font-size: 12px; float: right; margin-right: 2px;'>" + messages[messageid][4] + "</p><br><br><hr>";
         }
 
         document.getElementById("messages").innerHTML = content;
