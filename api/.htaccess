@@ -1,0 +1,12 @@
+
+## Rewrite rules
+<IfModule mod_rewrite.c>
+    Options +FollowSymlinks -Indexes
+    RewriteEngine On
+    # Update RewriteBase if the app is in a subdirectory.
+    RewriteBase /
+    
+    RewriteCond %{REQUEST_URI} !index\.php [NC]
+    RewriteRule ^([^/]+)(.*)?$ /api/index.php?path=$1$2   [L]
+
+</IfModule>

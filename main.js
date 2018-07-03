@@ -1,3 +1,4 @@
+
 /* Chat Section -- Start */
 // Initialize the chat component
 function onInit() {
@@ -35,8 +36,10 @@ var map = L.map('map', {
 var tiles = new L.tileLayer('http://{s}.tile.stamen.com/watercolor/{z}/{x}/{y}.png').addTo(map);
 
 // This one adds a pin on map click
+var chatNr = 0;
+
 function onMapClick(e) {
-    L.marker(e.latlng).addTo(map).bindPopup("Chatroom: "+chatNr).openPopup();
+    L.marker(e.latlng).addTo(map).bindPopup("Chatroom: " + chatNr).openPopup();
     chatNr++;
 }
 
