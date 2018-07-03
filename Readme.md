@@ -26,7 +26,7 @@ These instructions will get you a copy of the project up and running on your loc
         	Require all granted
 	</Directory>
 
-	This is used to allow ovveride of the path that is configured in the .htaccess
+	This is used to allow the application to get the path for the API. This is configured in .htaccess
 
 3. Createa MySQL database with the name 'wolfchatter'
 4. Import the dump that it is attached in git
