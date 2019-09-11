@@ -1,4 +1,4 @@
-# Wolfchatter
+# Map Chatter
 
 This chat that will take you anywhere.
 
